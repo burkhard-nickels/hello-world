@@ -1,0 +1,37 @@
+
+/* Title: */
+h1 { border-bottom:4px solid blue; font-size:large; text-align:center; }
+table.title { border: 1px solid white; border-collapse:collapse; width:80%; padding:0px; margin:0px; }
+table.title td { padding:0px; border: 1px solid white; text-align:center; vertical-align:middle; }
+img.title_image { margin-right:0px; }
+span.hsmall { font-weight:normal; font-size:20px; }
+span.hlarge { font-weight:bold; font-size:30px; margin-left:40px; margin-right:40px; }
+/* font-size: xx-small, x-small, small, medium. large, x-large, xx-large */
+
+/* Colors for State of measurement */
+.red { background-color:red; }
+.orange { background-color:orange; }
+.yellow { background-color:yellow; }
+.green { background-color:lightgreen; }
+
+/* Table */
+table { border: 1px solid black; border-collapse:collapse; width:80%; }
+td { padding:10px; border: 1px solid black; }
+table.none { border: 1px solid white; border-collapse:collapse; width:100%; padding:0px; margin:0px; }
+table.none td { padding:0px; border: 1px solid white; text-align:center; vertical-align:middle; }
+
+/* Error */
+div.error { font-size:large; font-weight:bold; font-color:red; }
+
+/* Measurement */
+div.Temp { padding:10px; border: 2px solid blue; }
+div.Power { padding:10px; border: 2px solid blue; width:40%; }
+div.Flash { padding:10px; border: 2px solid blue; text-align:left; }
+div.Name { padding:10px; border: 2px solid blue; background-color:lightgrey; text-align:left; }
+div.Reed { padding:10px; border: 2px solid blue; }
+div.Led { padding:10px; border: 2px solid blue; background-color:lightgrey; }
+button  { padding:10px; background-color:#ff70d0; }
+div.timestamp { padding:10px; border: 0px; background-color:white; color:blue; font-size:large; }
+div.System { padding:10px; border: 2px solid blue; background-color:lightgrey; text-align:left; }
+div.Mem { padding:10px; border: 2px solid blue; background-color:lightgrey; text-align:left; }
+
